@@ -23,7 +23,7 @@ app.get('/medx_voicebot', (req, res)=>{
             res.send(result.rows);
         }
     });
-    client.end;
+    // client.end;
 })
 
 // To fetch patient details by id.
@@ -34,7 +34,7 @@ app.get('/medx_voicebot/:id', (req, res)=>{
             res.send(result.rows);
         }
     });
-    client.end;
+    // client.end;
 })
 
 //To add new user
@@ -53,5 +53,5 @@ app.post('/medx_voicebot', jsonParser, (req, res)=> {
         }
         else{ console.log(err.message) }
     })
-    client.end;
+   // client.end;
 })
