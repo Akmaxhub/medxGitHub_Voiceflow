@@ -7,7 +7,7 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node api.js",
+    "start": "node build/api.js",
     "build": "npm install && npx rimraf ./build && tsc"
   },
   "keywords": [],
