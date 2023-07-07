@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node build/api.js",
-    "build": "npm install && npx rimraf ./build && npx tsc"
+    "build": "npm install && npx rimraf ./build && NODE_OPTIONS=--max-old-space-size=4096 npx tsc"
   },
   "keywords": [],
   "author": "",
