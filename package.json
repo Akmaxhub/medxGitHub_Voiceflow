@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node build/api.js",
-    "build": "npm install && rm -rf build && npx tsc",
+    "build": "rimraf build && tsc",
     "heroku-postbuild": "npm run build"
   },
   "keywords": [],
