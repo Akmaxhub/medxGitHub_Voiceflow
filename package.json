@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node build/api.js",
-    "build": "npm install && npx rimraf ./build && node_modules/typescript/bin/tsc"
+    "build": "npm install && npx rimraf ./build && ./node_modules/.bin/tsc"
   },
   "keywords": [],
   "author": "",
