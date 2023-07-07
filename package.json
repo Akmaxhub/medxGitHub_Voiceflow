@@ -4,12 +4,11 @@
   "description": "",
   "main": "api.js",
   "engines": {
-    "node": "18.x"
+    "node": "14.x"
   },
   "scripts": {
     "start": "node api.js",
-    "build": "npm install && rimraf ./build && tsc",
-    "rimraf": "./node_modules/rimraf/bin.js"
+    "build": "npm install && npx rimraf ./build && tsc"
   },
   "keywords": [],
   "author": "",
