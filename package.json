@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "node build/api.js",
-    "build": "npm install && npx rimraf ./build && ./node_modules/.bin/tsc"
+    "build": "npm install && npx rimraf ./build && npx tsc",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
