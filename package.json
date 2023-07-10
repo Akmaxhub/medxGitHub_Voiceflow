@@ -7,9 +7,7 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node api.js",
-    "build": "rimraf build && tsc",
-    "heroku-postbuild": "npm run build"
+    "start": "node api.js"
   },
   "keywords": [],
   "author": "",
